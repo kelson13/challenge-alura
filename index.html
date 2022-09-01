@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="style.css">
+        <title>Encriptador Alura</title>
+    </head>
+    <body>
+        <div class="caixa">
+            <main>
+                <img class=" logo" src="Vector.png" class="logo">
+                <section>
+                    <div class="caixa-texto">
+                        <textarea class="input-texto" placeholder="Digite seu texto"></textarea>
+                        <p><label for="input-texto">Apenas letras minúsculas e sem acento.</label></p>
+                        <div class="botoes">
+                            <button id="btn-encriptar" onclick="btnEncripitar()">Criptografar</button>
+                            <button id="btn-desencriptar" onclick="btnDesencripitar()">Descriptografar</button>
+                        </div>
+                    </div>
+                    </section>
+                <div class="caixa-resultado">
+                    <section>
+                            <textarea class="resultado" placeholder="Nenhuma Mensagem" disabled></textarea>
+                            <button id="btn-copiar" onclick="copiar()">Copiar</button>
+                    </section>
+                </div>
+            </main>
+            <script src="script.js"></script>
+            <footer>
+                <p>Desenvolvido por kelson henrique</p>
+            </footer>
+        </div>
+    </body>
+</html>
